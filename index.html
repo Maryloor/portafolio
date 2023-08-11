@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Portafolio </title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body id="body">
+	
+	<header>
+		<div id="barra" class="fixed-top">
+			<nav >
+				<label for="" class="inf">
+					<a href= "https://www.linkedin.com/feed/"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAABJhJREFUWEe1WD1sHEUU/t4GLO4uGJNIFHRIgQLbSFEoUArIhYaGnFEQEogKOhBtRIF9d3ZJS4cEXSgixbcxQhQISIMAIZDsXZp0QEVAUPj2HBzvQ/O3O7Mze7tJ4Ap7b/fmvW/e972fWULxIQAMyH/6Wj6z75e//u+uCAQWnqUv4S3o04bkOfdAB+DVGajbsAE017GNdu61CyiMt9mTic29Rd/z085x2KmhrPJ0P41foBzPSGIVqfrj3pDfyj/tNqZNcIRvjy8PPq8uctyJh9Ofd9Yoz7c9hvTK1tLw4GkklgGOopd6T16YyGSy7DtLp3vxiAjDUgd2VLyQtYuKtwtlhxnj3upgZBvxIyQB8VByJQ01AGpTFbQdleCWADxAjoaU5eluPKIIQ2vdHyB8zFH0DeX5WTDeAOGkY7kpTjU8c45x76mmCFUAVcO6n8RbEfCe4t0LcEV68ylWttdGrTRkiex8Z2XwlSnYs3Tneeb8C1MzbAp8iutC16QhSwf7FVEzY6u3MthQpgnTZLJFcyMUiEodZXcTIYD/JEQf5hF9R3x0ljh6k8En3L27IOa2QytR6rPM2oFJey/YrQuwX2/sGhPKstJ0pbnKwqgpsyrVdc7xdWGU8CwIfVEOGLQFRi5EScAJEL0D4BcifJSDvo/yoxkTnQboXQCPVDdpIlSdLZwq6WhIlaHx8dXByOxslsTrDGwKEJ2bD91P/f5tYeAgjU/loLc6vz94ydwzhvnGZ4uzW0dfAvkZG5RDmaXjYKUujDHr1FR3SkBA5+ZiAeivn7aXlhYOM1p+5Z8Qu9M0Ph0xflQbm5NlVQEqynhoqmqxC+0lS+J1yAhpQOf7t+0i+ffupw8vHDt8vNNd2qXH+gd2YcqS+AaAUwUgXRh9DVkxqmqIayOkKbMAZcm1iwBf0RXz105v8QkJqtyMePayqWF5+15Wto56DbmUSTr3JntMtFLsj3Gxuzq4ampYlkw+APB2lbJ7iBBhlm5vMNO4oEyLWnzPkngfQK+gKcel3urgfTOiT5N4kwBBuVLSHfcy0ousEUFqiLApdCNF7VAW3wKwUJYIHnWW1yR4DbjQn4iKoaw27cUiR0MBQLN0oiPkpr12eAjgvjJD7ZIhojsZMqOYf5wImbSvpqgvaneIKgH5GsqSWAIyNj39pfGQgZGZsdoNaA3jR5ZONgAaF5RJDSkIBpAdIXsizNJYzFklIE9DgSG/VYQCgMQsOE3jQ7CmLEh3rCkLFMb2lfrOKfMipJ3NBGWehvSA5gCa1+2Jr3NOVnOl5wA+pxuAbq6qskQR1sGIijpEUI3ZDABUrrWzzKrL/gxqWsddjaetRxRdh+xKHaJM3DPd3kb9f103jh+qllx7FeDLZVNsP5I2AS8DaGzSa92VC5/UUKZ+zj/sdLMH+HUwP+o7MOdgdYYWY5l/7qi7b59T5Guf37oHxy7T0y9mDqBy/KgWcPd4a77ZjbA8vlgCcI4h2pWnrYDY6tLeeT9V5yeAvTpXFf2s+v6rgVc/4m0ypc57Kbyg27Bp964PqKown6vijZvnNUCN/bquekL1D5mEfwHU/ttMk6TxVgAAAABJRU5ErkJggg=="width="50px" /></a>
+					<a href="https://github.com/Maryloor"><img src="data:image/png;base64,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" width="50px"/></a>
+				</label>
+				<ul>
+					<li><a href="#inicio">Inicio</a></li>
+					<li><a href="#acerca-de">Acerca de</a></li>
+					<li><a href="#servicios">Proyectos</a></li>
+					<li><a href="#contacto">Contacto</a></li>
+					
+					
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+
+	<section id="inicio" class="container-fluid" style="margin-top:110px">
+		<div>
+			<div>
+				<p>¡Hola y bienvenido a mi portafolio!</p>
+				<br>
+				<h2>Odeth Alvear</h2>
+				<h2>❤</h2>
+
+				<h2>------Desarrollador de software------</h2>
+			</div>
+
+			<div class="leng" >	
+				<li>c#</li>
+				<li>html</li>
+				<li>React</li>
+				<li>css</li>
+				<li>Js</li>
+			</div>
+			
+		</div>	
+	</section>
+
+	<section id="acerca-de">
+		<h1 > Acerca de </h1>
+		<p id="apar" class="fade-in-page"> Soy Odeth, una programadora con un enfoque claro en el desarrollo web y la creación de soluciones digitales innovadoras. Desde que tuve mi primer encuentro con la programación, me he enamorado de la capacidad de transformar ideas en realidad a través del código.
+			<br>
+			<br>
+			En mi portafolio, encontrarás una selección de proyectos en los que he trabajado, cada uno de los cuales ha sido una oportunidad para afrontar desafíos únicos y aplicar mi creatividad y conocimientos técnicos. Estoy ansioso(a) por compartir contigo mi trabajo y espero que te sientas inspirado(a) por lo que he logrado hasta ahora.
+			Si estás interesado(a) en colaborar en un proyecto o simplemente quieres charlar sobre tecnología y programación, no dudes en contactarme. Estaré encantado(a) de escuchar tus ideas y explorar cómo podemos trabajar juntos para crear algo asombroso.
+			<br>
+			<br>
+			¡Gracias por visitar mi portafolio y por tomarte el tiempo de conocerme un poco mejor! </p>
+	</section>
+
+	<section id="servicios">
+		<h1 > Proyectos </h1>
+		<div id="butt" class="container">
+			<div class="row" >
+				<div class="col" onclick="document.location='./cal/calculadora.html'">
+					Calculadora
+				</div>
+				<div class="col" onclick="document.location='https://s9gp9q.csb.app/'">Tres en raya</div>
+			</div>
+		
+			<div class="row">
+				<div class="col" onclick="document.location='./juego/index.html'">El ahorcado</div>
+				<div class="col"  onclick="document.location='https://simmer.io/@odeth/saving-sky'">Saving sky</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="contacto" >
+		<h1> Contacto </h1>
+		<p>Encuentrame en:
+			<br>
+			<a href="https://www.linkedin.com/feed/" target="_blank">Linkedin</a>
+			<br>
+			<a href="https://github.com/" target="_blank">Github</a>
+			
+		</p>
+	</section>
+	
+	
+	<script src="script.js"></script>
+</body>
+</html>
+
